@@ -1,0 +1,29 @@
+{
+  "name": "ngperf",
+  "version": "1.0.0",
+  "description": "A light-weight utility tool to help you identify the performance bottle necks for your angularJS applications.",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^2.5.3",
+    "angular": "^1.5.11"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.0.3",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyanGhatak/ngPerf.git"
+  },
+  "author": "ayanghatak <ghatak.ayan.btech@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AyanGhatak/ngPerf/issues"
+  },
+  "homepage": "https://github.com/AyanGhatak/ngPerf#readme"
+}
