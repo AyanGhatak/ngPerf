@@ -2,7 +2,7 @@
   "name": "ngperf",
   "version": "1.0.0",
   "description": "A light-weight utility tool to help you identify the performance bottle necks for your angularJS applications.",
-  "main": "index.js",
+  "main": "ngPerf.js",
   "dependencies": {
     "typescript": "^2.5.3",
     "angular": "^1.5.11"
