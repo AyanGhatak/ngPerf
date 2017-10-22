@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "A demo application for ngPerf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "ngPerf"
+  ],
+  "author": "ayanghatak",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.34",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^3.0.5",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "angular": "^1.6.6",
+    "ngperf": "git+https://github.com/AyanGhatak/ngPerf.git"
+  }
+}
